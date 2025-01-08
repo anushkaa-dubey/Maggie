@@ -90,3 +90,38 @@ nav a:hover {
     width: 500px;
     border-radius: 10px;
 }
+/* Student recipes */
+.gallery-item {
+    display: flex;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    align-items: center;
+    width: 600px;
+    margin-bottom: 20px;
+}
+
+.recipe-details {
+    flex: 1;
+    padding-right: 20px;
+}
+
+.recipe-details h2 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    color: #f45b69;
+}
+
+.recipe-details p {
+    margin: 5px 0;
+    font-size: 0.9rem;
+    color: #555;
+}
+
+.gallery-item img {
+    width: 150px;
+    height: 150px;
+    border-radius: 8px;
+    object-fit: cover;
+}
